@@ -1,0 +1,22 @@
+{
+  "name": "asobify",
+  "version": "1.0.0",
+  "description": "My riveting Nuxt.js project",
+  "author": "matsuge1Mb",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/vuetify": "^1.6.1",
+    "firebase": "^6.5.0",
+    "nuxt": "^2.0.0",
+    "scss-loader": "^0.0.1",
+    "vuetify": "^2.0.11"
+  },
+  "devDependencies": {}
+}

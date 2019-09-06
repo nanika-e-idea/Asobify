@@ -1,0 +1,37 @@
+$margin-section: 4rem auto;
+$margin-sub: 2rem auto;
+
+$pc: 1025px; // PC
+$tab: 1024px; // タブレット
+$sp: 599px;  // スマホ
+
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+$shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+
+html{
+  @include pc { font-size: 18px };
+  @include tab { font-size: 16px };
+  @include sp { font-size: 14px };
+}
+
+div{
+  width: 100%;
+}
+section{
+  margin: $margin-section;
+}
