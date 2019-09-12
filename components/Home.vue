@@ -11,7 +11,7 @@ export default {
   name: "home",
   data() {
     return {
-      msg: "welcome to Taskplayer"
+      msg: "welcome to Asobify"
     };
   },
   methods: {
