@@ -51,15 +51,32 @@ export default {
 <style lang="scss" scoped>
 .editorWrapper {
     display: flex;
-    width:100%;
 }
+.momoListWrapper {
+    width:20%;
+    border-top: solid 1px #000;
+}
+.memoList {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    border-bottom: solid 1px #000;
+    &:nth-child(even){
+        background-color: #ccc;
+    }
+    &[data-selectedIndex="ture"]{
+        background-color: #cdd;
+    }
+}
+.memoTitle {}
 .markdown {
-    width: 50%;
+    width: 40%;
     height: 500px;
 }
 .preview,
 .preview * {
-    width: 50%;
+    width: 40%;
     text-align: left;
 }
+
 </style>
