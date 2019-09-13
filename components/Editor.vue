@@ -17,6 +17,7 @@
 
 <script>
 import marked from "marked";
+
 export default {
     name: "editor",
     prop: ["user"],
@@ -64,7 +65,7 @@ export default {
     &:nth-child(even){
         background-color: #ccc;
     }
-    &[data-selectedIndex="ture"]{
+    &[data-selected="true"]{
         background-color: #cdd;
     }
 }
