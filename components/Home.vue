@@ -18,7 +18,7 @@ export default {
     firebaseLogin: function() {
       firebase
       .auth()
-      .signInWithRedirect(new firebase.auth.TwitterAuthProvider());
+      .signInWithPopup(new firebase.auth.TwitterAuthProvider());
     }
   },
 };

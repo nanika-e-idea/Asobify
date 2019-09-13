@@ -18,18 +18,19 @@ export default {
   },
   data() {
     return {
-      isLogin: false
+      //isLogin: false
+      isLogin: true
     }
   },
   created: function() {
-    firebase.auth().onAuthStateChanged(user => {
-      console.log(user);
-      if (user) {
-        this.isLogin = true;
-      } else {
-        this.isLogin = false;
-      };
-    });
+    //firebase.auth().onAuthStateChanged(user => {
+    //  console.log(user);
+    //  if (user) {
+    //    this.isLogin = true;
+    //  } else {
+    //    this.isLogin = false;
+    //  };
+    //});
   },
 };
 </script>
