@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <Home v-if="!isLogin" />
-    <UserTop v-if="isLogin"/> 
+    <UserTop v-if="isLogin" />
   </div>
 </template>
 

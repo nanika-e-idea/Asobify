@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h2>Task List</h2>
-        <task />
+        <!--<h2>Task List</h2>
+        <task />-->
         <editor />
     </div>
 </template>
