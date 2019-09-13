@@ -5,7 +5,7 @@
     <div class="editorWrapper">
       <div class="memoListWrapper">
         <div class="memoList" v-for="(memo, index) in  memos" :key="index" @click="selectMemo(index)" :data-selected="index == selectedIndex">
-          <p class="memoTile">{{ displayTitle(memo.markdown) }}</p>
+          <p class="memoTitle">{{ displayTitle(memo.markdown) }}</p>
         </div>
         <button class="addMemoBtn" @click="addMemo">メモの追加</button>
       </div>
